@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
-  m_Name: New State 1
+  m_Name: InitialState
   m_EditorClassIdentifier: 
-  storyText: Ahora viene marron con la cencia
-  nextStates: []
+  storyText: Selecciona 1, 2 o 3 para elegir entre estados.
+  nextStates:
+  - {fileID: 11400000, guid: 783e153203c87694bb5489962298513b, type: 2}
