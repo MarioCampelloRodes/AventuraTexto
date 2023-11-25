@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    float posicionY = 2.8f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector2(-5f, -2.8f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        posicionY = transform.position.y;
+        
         //Si pulsamos las teclas arriba y abajo asignadas en el eje vertical, el selector se va a mover arriba o abajo
         //if (Input.GetAxis("Vertical") == 1) //Si estamos pulsando Arriba
         //{
@@ -37,7 +42,17 @@ public class MainMenu : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) //Si estamos pulsando abajo
         {
             // Que el selector vaya a la posición(Coge la posición de este objeto en el transform y lo cambia por el vector que le pasamos)
-            transform.position = new Vector2(-5f, -4.6f);
+            transform.position = new Vector2(-5f, -4.2f);
+        }
+
+        if (posicionY == -2.8f && Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(0);
+        }
+
+        if (posicionY == -4.2f && Input.GetKeyDown(KeyCode.Space))
+        {
+            Application.Quit();
         }
     }
 }

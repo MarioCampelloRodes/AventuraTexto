@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; //Librería para acceder a los componentes de la UI
 using TMPro; //Librería para acceder a los TextMeshPro
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class Game : MonoBehaviour
 
     [SerializeField] State startingState;
 
+    public GameObject fondo;
+
+    public Image imagenFondo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +30,11 @@ public class Game : MonoBehaviour
         stateRef = startingState;
         //Accedemos al componente text dentro del textComponent y metemos lo que haya dentro del campo storyText del estado actual
         textComponent.text = stateRef.GetStateText();
+
+        imagenFondo = fondo.GetComponent<Image>();
+
+        imagenFondo.sprite = stateRef.GetStateImage();
+
     }
 
     // Update is called once per frame
@@ -32,6 +42,11 @@ public class Game : MonoBehaviour
     {
         //Hacemos la llamada al método
         ManageStates();
+
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     //Método para manejar el cambio de estados
@@ -51,13 +66,10 @@ public class Game : MonoBehaviour
             //Del estado en el que esté pasa al siguiente estado que está en la posición del array 0
             stateRef = nextStates[1];
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            //Del estado en el que esté pasa al siguiente estado que está en la posición del array 0
-            stateRef = nextStates[2];
-        }
 
         //Accedemos al componente text dentro del textComponent y metemos lo que haya dentro del campo storyText del estado actual
         textComponent.text = stateRef.GetStateText();
+
+        imagenFondo.sprite = stateRef.GetStateImage();
     }
 }

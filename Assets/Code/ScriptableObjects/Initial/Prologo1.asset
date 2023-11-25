@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
-  m_Name: InitialState
+  m_Name: Prologo1
   m_EditorClassIdentifier: 
-  storyText: Selecciona 1, 2 o 3 para elegir entre estados.
+  storyText: Bienvenido
+  imagenFondo: {fileID: 21300000, guid: bf40fb13afa9bc6478037648a9402e3c, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 783e153203c87694bb5489962298513b, type: 2}
+  - {fileID: 11400000, guid: c8ac3d63e4225684f964a6e2f052ba32, type: 2}

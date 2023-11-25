@@ -16,6 +16,8 @@ public class State : ScriptableObject
     //[SerializedField] -> Atributo que permite que una variable o referencia siga siendo privada pero accesible desde el editor de Unity
 
     [TextArea(14, 10)] [SerializeField] string storyText;
+
+    [SerializeField] Sprite imagenFondo;
         
     [SerializeField] State[] nextStates; //Array de estados a los que podemos ir desde el estado actual
 
@@ -23,6 +25,11 @@ public class State : ScriptableObject
     public string GetStateText()
     {
         return storyText;
+    }
+
+    public Sprite GetStateImage()
+    {
+        return imagenFondo;
     }
 
     //Método quen nos devuelve los estados a los que podemos ir desde el estado actual
