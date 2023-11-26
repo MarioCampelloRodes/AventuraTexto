@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
+  m_Name: Ec
+  m_EditorClassIdentifier: 
+  storyText: "Entonces el soldado que ahora cuenta con poderes tetradimensionales
+    y el f\xEDsico extraviados empiezan a combatir. \xBFQui\xE9n ganar\xE1 la batalla?\n\n1:
+    Johnny\n2: Ikal"
+  imagenFondo: {fileID: 21300000, guid: 2983f634e3e1e7747beaa168ffb4c145, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 8a031f61e0a3ecc45a49d8c761164ed4, type: 2}
+  - {fileID: 11400000, guid: 7bf44eb282fb6684dba8f91400687d6d, type: 2}

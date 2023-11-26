@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
+  m_Name: A
+  m_EditorClassIdentifier: 
+  storyText: "En un laboratorio desordenado y lleno de inventos innovadores, el joven
+    f\xEDsico Albert \"Johnny\" Geojigain intenta manipular el espacio para acceder
+    a dimensiones desconocidas.\n\n(Pulsa 1 para avanzar) "
+  imagenFondo: {fileID: 21300000, guid: bf40fb13afa9bc6478037648a9402e3c, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 783e153203c87694bb5489962298513b, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
+  m_Name: A4
+  m_EditorClassIdentifier: 
+  storyText: "Jhonny: \"\xA1Atr\xE1s, no les hag\xE1is da\xF1o!\"\n\nLa apariencia
+    de Johnny no es precisamente intimidante, por lo que los seres invasores proceden
+    a atacarlo."
+  imagenFondo: {fileID: 21300000, guid: ef67bc08e3713254c866b39e9d4289c7, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 75ae8cf9e64957b43a2a15bb333aadae, type: 2}

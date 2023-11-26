@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
+  m_Name: Ea
+  m_EditorClassIdentifier: 
+  storyText: "Johnny, destrozado por la traici\xF3n de su amigo, ignor\xF3 su consejo
+    y se dirigi\xF3 a su pueblo para defenderlo por su cuenta. No tard\xF3 en reencontrarse
+    con Ikal, quien esta vez lideraba el ej\xE9rcito invasor."
+  imagenFondo: {fileID: 21300000, guid: 56f36db30a903b243948de900bfabdad, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 28187e097efbc9847bfbe523b74227dd, type: 2}

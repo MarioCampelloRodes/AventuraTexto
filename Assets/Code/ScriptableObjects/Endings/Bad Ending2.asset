@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
-  m_Name: Prologo2 1
+  m_Name: Bad Ending2
   m_EditorClassIdentifier: 
-  storyText: 'Esto es la segunda opcion
-
-'
-  imagenFondo: {fileID: 21300000, guid: 90331c34e0e514a47a73be9505c17d66, type: 3}
-  nextStates:
-  - {fileID: 0}
+  storyText: "Vaya... Este es el final malo... \xA1Pero hay otros 2 posibles finales!\n\nPulsa
+    \"Escape\" para volver al men\xFA principal"
+  imagenFondo: {fileID: 21300000, guid: 8f62ad87b779dd640b756f6631ef1a22, type: 3}
+  nextStates: []
