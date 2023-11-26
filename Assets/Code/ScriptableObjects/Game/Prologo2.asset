@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
   m_Name: Prologo2
   m_EditorClassIdentifier: 
-  storyText: Esto es una prueba
+  storyText: Esta es la historia de como me hice una paja en el mercadona
   imagenFondo: {fileID: 21300000, guid: 6cca94f0cb5d2b1478efe91d0980946a, type: 3}
   nextStates:
   - {fileID: 0}
