@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
   m_Name: Ec2
   m_EditorClassIdentifier: 
-  storyText: 
-  imagenFondo: {fileID: 0}
-  nextStates: []
+  storyText: "Ikal gana la batalla, y obliga a Johnny a huir de la ciudad entre l\xE1grimas."
+  imagenFondo: {fileID: 21300000, guid: 56f36db30a903b243948de900bfabdad, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 5a05a536755ff68449580bae599efef6, type: 2}

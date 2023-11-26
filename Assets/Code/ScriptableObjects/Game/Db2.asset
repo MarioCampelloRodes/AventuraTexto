@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Db2
   m_EditorClassIdentifier: 
   storyText: "Ikal: \"Johnny... Lo siento... Al\xE9jate de aqu\xED todo lo que puedas.
-    \n\tNyuxh, me unir\xE9 a ti, devu\xE9lveme a mi hermana\"\n\nJohnny: \"Ikal...
-    sabes que esto no es correcto...\"."
+    Nyuxh, me unir\xE9 a ti, devu\xE9lveme a mi hermana\".\n\nJohnny: \"Ikal... sabes
+    que esto no es correcto...\"."
   imagenFondo: {fileID: 21300000, guid: a195b40e864e6e04f813bb00ffe26b7e, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 05048874a911b6d40991a6affa6f79d0, type: 2}

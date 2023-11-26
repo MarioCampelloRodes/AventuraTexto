@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
   m_Name: A2
   m_EditorClassIdentifier: 
-  storyText: "Este planeta es un poco bizarro. La vegetaci\xF3n de  un tono magenta
+  storyText: "Este planeta es un poco bizarro. La vegetaci\xF3n de un tono magenta
     y el cielo verde son los elementos que m\xE1s le llaman la atenci\xF3n. Sin embargo,
     no tiene mucho tiempo para admirarlos, ya que criaturas monstruosas empiezan
     a perseguirlo."

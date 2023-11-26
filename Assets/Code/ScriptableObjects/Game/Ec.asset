@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ec
   m_EditorClassIdentifier: 
   storyText: "Entonces el soldado que ahora cuenta con poderes tetradimensionales
-    y el f\xEDsico extraviados empiezan a combatir. \xBFQui\xE9n ganar\xE1 la batalla?\n\n1:
+    y el f\xEDsico extraviado empiezan a combatir. \xBFQui\xE9n ganar\xE1 la batalla?\n\n1:
     Johnny\n2: Ikal"
   imagenFondo: {fileID: 21300000, guid: 2983f634e3e1e7747beaa168ffb4c145, type: 3}
   nextStates:

@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 111504f7b6799fd47af87323a85f9d9b, type: 3}
-  m_Name: True Ending
+  m_Name: True Ending2
   m_EditorClassIdentifier: 
-  storyText: Johnny decide quedarse a vivir en este planeta para
-  imagenFondo: {fileID: 0}
+  storyText: "Este es el final verdadero y can\xF3nico. A\xFAn as\xED, hay otros
+    dos posibles finales.\n\nTO BE CONTINUED\n\nPulsa \"Escape\" para volver al men\xFA
+    principal"
+  imagenFondo: {fileID: 21300000, guid: 4d09bc96156c9fd469fcd2f2a953b654, type: 3}
   nextStates: []
