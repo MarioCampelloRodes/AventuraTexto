@@ -47,7 +47,7 @@ public class MainMenu : MonoBehaviour
 
         if (posicionY == -2.8f && Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameScreen");
         }
 
         if (posicionY == -4.2f && Input.GetKeyDown(KeyCode.Space))
